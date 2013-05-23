@@ -32,6 +32,7 @@
 @property (nonatomic, retain) NSString *doneButtonTitle;
 @property (nonatomic, retain) NSString *cancelButtonTitle;
 @property (nonatomic, copy) NSString *title;
+@property (nonatomic, strong) UIFont *defaultFont;
 @property (nonatomic, strong) UIView *pickerView;
 @property (nonatomic, readonly) CGSize viewSize;
 @property (nonatomic, strong) NSMutableArray *customButtons;
